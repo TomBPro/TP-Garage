@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6392f185-ef96-4f5e-bb56-787e58c7d508" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abstracts/Vehicule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Abstracts/Vehicule.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Camion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Camion.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Garage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Garage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Moto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Moto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Voiture.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Voiture.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="6392f185-ef96-4f5e-bb56-787e58c7d508" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649316870224</updated>
-      <workItem from="1649316872205" duration="6959000" />
+      <workItem from="1649316872205" duration="7048000" />
     </task>
     <servers />
   </component>
