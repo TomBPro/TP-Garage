@@ -1,19 +1,16 @@
 import Garage from "../Classes/Garage";
+import Moto from "../Classes/Moto";
+import Moteur from "../Interfaces/Moteur";
 
 export default abstract class Vehicule {
     protected marque: string;
-    garages?: Garage[];
+    garage?: Garage;
+    moteur?: Moteur;
 
-    constructor(marque: string, garages?: Garage[]) {
+    constructor(marque: string, garage?: Garage, moteur?: Moteur) {
         this.marque = marque;
-        this.garages = garages;
-    }
-
-    /**
-     * Méthode perso pour obtenir le type de véhicule
-     */
-    getType(): string {
-        return typeof this;
+        this.garage = garage;
+        this.moteur = moteur;
     }
 
     /**

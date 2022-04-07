@@ -1,10 +1,11 @@
 import Vehicule from "../Abstracts/Vehicule";
 import Garage from "./Garage";
+import Moteur from "../Interfaces/Moteur";
 
 export default class Camion extends Vehicule{
 
-    constructor(marque: string, garages?: Array<Garage>) {
-        super(marque, garages);
+    constructor(marque: string, garage?: Garage, moteur?: Moteur) {
+        super(marque, garage, moteur);
     }
 
     /**
@@ -22,7 +23,7 @@ export default class Camion extends Vehicule{
     }
 
     afficherVehicule(): void {
-        console.log("Je suis un camion");
+        console.log("Camion: " + this.marque);
     }
 
     avancer(): void {

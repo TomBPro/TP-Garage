@@ -35,6 +35,14 @@ tesla.afficherVehicule();
 
 garage.afficherGarage();
 
+garage.ajouterVehicule(fiesta);
+garage.ajouterVehicule(tesla);
+garage.ajouterVehicule(mondeo);
+garage.ajouterVehicule(ford);
+garage.afficherGarage();
+
+garage.afficherMotos();
+
 
 
 
